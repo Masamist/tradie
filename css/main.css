@@ -1,0 +1,867 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #404040;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/* Navbar */
+.header{
+    margin: 0;
+    padding:0;
+}
+.top_logo{
+    width:15.5rem;
+    height: 4rem;
+    margin: 0 1.5rem;
+    background-image: url(../images/tradies_logo_large.png);
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+}
+#navbarSupportedContent{
+    justify-content: end;
+    padding-right: 1rem;
+}
+#top_nav_link{
+    color: #404040;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+#top_nav_link:hover{
+    color: #c3c3c3;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+#top_nav_link i:hover{
+    color: #c3c3c3;
+}
+
+
+/*  Top carousel */
+.carousel-item img{
+    margin: 0;
+    width: 100%;
+}
+#c_caption1, #c_caption3{
+    top:8rem;
+    left: 10%;
+}
+#c_caption2{
+    top:2rem;
+    left: 10%;
+}
+.carousel-caption h1{
+    font-size: 3.5rem;
+}
+.top_carousel_heading, .top_carousel_paragraph{
+    color: #ffffff;
+    text-align: left;
+}
+#carousel_button{
+    margin-top: 2rem;
+    display: block;
+    float: left;
+}
+.top_image_sml{
+    visibility: hidden;
+    width:100%;
+    height: 2rem;
+    background-color: gray;
+    position: absolute;
+    top: 5rem;
+}
+
+/* six_points*/
+.six_points_container{
+    margin: 0;
+    padding: 6rem 2rem 6rem 2rem;
+    width: 100%;
+    color: #404040; 
+}
+.points_container{
+    padding: 2.5rem;
+    text-align: center;
+}
+.points_title{
+    font-size: 2.7rem;
+    font-weight: 400;
+    padding-bottom: .5rem;
+}
+.points_flex{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8%;
+}
+.point{
+    width:22%;
+    text-align: center;
+    padding-top: 9rem;
+    margin-bottom: 3rem;
+
+}
+#point1{
+    background-image: url(../images/icon_saveTime_large.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#point2{
+    background-image: url(../images/icon_professional_large.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#point3{
+    background-image: url(../images/icon_noSurprises_large.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#point4{
+    background-image: url(../images/icon_anytime_large.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#point5{
+    background-image: url(../images/icon_security_large.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#point6{
+    background-image: url(../images/icon_support_large.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.point_button{
+    width: 100%;
+    text-align: center;
+}
+.learnMore{
+    padding: .5rem 1rem;
+    color: #F2994A;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: 2px solid #F2994A;
+    border-radius: 2px;
+}
+.learnMore:hover{
+    color: #ffffff;
+    background-color: #F2994A;
+    text-decoration: none;
+}
+
+/* Experience */
+.experience_container{
+    background-color: #4f4f4f;
+    margin: 0;
+    padding: 0 8%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    gap:5%;
+}
+.box_text{
+    width: 50%;
+    padding-bottom: 4rem;
+}
+.experience_title{
+    padding-top: 3rem;
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 4rem;
+    color: #F2994A;
+    padding-bottom: .5rem;
+}
+.experience_p{
+    margin-top: 1rem;
+    line-height: 1.8rem;
+    color: #ffffff;
+}
+.experience_b{
+    color: #ffffff;
+    line-height: 1rem;
+}
+.box_images{
+    width: 45%;
+    background-image: url(../images/experience_large.png);
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+
+/* Download app */
+.dl_app_container{
+    width: 100%;
+    margin: 0;
+    padding:7rem 1rem;
+    text-align: center;
+    background-color: #F2994A;
+}
+
+.dl_app_header{
+    color: #ffffff;
+    padding-bottom: 1rem;
+}
+.dl_app_p{
+    color: #404040;
+    padding-bottom: 1.5rem;
+    line-height: 1.5rem;
+
+}
+.dl_app_container img{
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+/* Footer */
+.footer_container{
+    margin: 0;
+    padding: 0;
+}
+.footer_top_flex{
+    display: flex;
+    flex-direction: row;
+}
+.footer_logo{
+    width:15.5rem;
+    height: 4rem;
+    background-image: url(../images/tradies_logo_large.png);
+    background-repeat: no-repeat;
+    margin: 1.5rem 1.5rem .5rem 1.5rem;
+}
+.footer_login{
+    margin-top: 4.1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    position: absolute;
+    right: 2rem;
+}
+.footer_login div a{
+    text-decoration: none;
+    color: #F2994A;
+}
+.footer_border{
+    width: 100%;
+    border-bottom: .5rem solid gray;
+}
+.about_container{
+    display: flex;   
+    justify-content: flex-end;
+    padding-top: .7rem;
+    padding-right: 1.5rem;
+}
+.about_container div{
+    padding-left: 1.3rem;
+}
+.about_link a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #404040;
+    margin-right: 5rem;
+}
+.social_link{
+    display: flex;
+    flex-direction: row;
+}
+#copyright{
+    padding-left: 1.5rem;
+    font-size: .9rem;
+}
+
+
+@media only screen and (max-width: 1365px){
+    /* carousel */
+    #c_caption1, #c_caption3{
+        top:2rem;
+        left: 10%;
+    }
+    #c_caption2{
+        top:2rem;
+        left: 10%;
+    }
+
+    .experience_title{
+        padding-top: 3rem;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        color: #F2994A;
+        padding-bottom: .5rem;
+    }
+    .box_text{
+        padding-bottom: 3rem;
+    }
+
+}
+@media only screen and (max-width: 1180px) {
+
+    /* carousel */
+    .carousel-caption h1{
+        font-size: 2.8rem;
+    }
+    /* experience */
+    .experience_container{
+        padding: 3rem 8rem;
+        flex-direction: column;
+        gap: 0;
+    }
+    .box_text{
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+    .experience_title{
+        padding-top: 2rem;
+        font-size: 3rem;
+        font-weight: 300;
+        line-height: 4rem;
+        padding-bottom: .5rem;
+    }
+    .box_images{
+        width: 100%;
+        height: 25rem;
+        background-image: url(../images/experience_mid.png);
+        background-repeat: no-repeat;
+        margin-bottom: 1rem;
+    }
+
+    /* Footer */
+    .footer_container{
+        padding: 0 0 .5rem 0;
+    }
+    .footer_logo{
+        width:14rem;
+        height: 3.7rem;
+        background-image: url(../images/tradies_logo_mid.png);
+        margin: 1rem 1rem .5rem 1rem;
+    }
+    .footer_login{
+        margin-top: 3.5rem;
+    }
+    .footer_border{
+        border-bottom: .4rem solid gray;
+    }
+    .about_container{
+        display: flex;   
+        justify-content: flex-end;
+        padding-top: .8rem;
+        padding-right: .8rem;
+    }
+    .about_container div{
+        padding-left: 1rem;
+    }
+    .about_link a{
+        margin-right: 3rem;
+    }
+    .social_icon_1 img{
+        width: 2.5rem;
+    }
+    .social_icon_2 img{
+        width: 3rem;
+    }
+    .social_icon_3 img{
+        width: 2.8rem;
+    }
+}
+@media only screen and (max-width: 980px) {
+    .top_logo{
+        width:12rem;
+        height: 3.7rem;
+        margin: 0 1rem;
+        background-image: url(../images/tradies_logo_bottom_mid.png);
+    }
+
+    /* carousel */
+    .carousel-item img{
+        width: auto;
+        height:22rem;
+    }
+    .carousel-caption{
+        top: 0rem;
+        left: 6rem;
+    }
+    .carousel-caption h1{
+        font-size: 2.5rem;
+    }
+    .top_carousel_heading, .top_carousel_paragraph{
+        text-align: left;
+    }
+    #carousel_button{
+        display: block;
+        float: left;
+    }
+
+    /* six_points*/
+    .six_points_container{
+        padding: 5rem 0;
+        width: 100%;
+    }
+    .points_container{
+        padding: 1rem;
+        text-align: center;
+    }
+    .points_title{
+        font-size: 2.3rem;
+    }
+    .points_flex{
+        width: 100%;
+        padding: 1rem;
+        gap: 8%;
+    }
+    .point{
+        width:26%;
+        padding-top: 7rem;
+        margin-bottom: 2.5rem;
+    }
+    #point1{
+        background-image: url(../images/icon_saveTime_mid.png);
+    }
+    #point2{
+        background-image: url(../images/icon_professional_mid.png);
+    }
+    #point3{
+        background-image: url(../images/icon_noSurprises_mid.png);
+    }
+    #point4{
+        background-image: url(../images/icon_anytime_mid.png);
+    }
+    #point5{
+        background-image: url(../images/icon_security_mid.png);
+    }
+    #point6{
+        background-image: url(../images/icon_support_mid.png);
+    }
+    .point p{
+        font-size: .8rem;
+    }
+
+    /* Experience */
+    .experience_title{
+        padding-top: 2.5rem;
+        font-size: 2.8rem;
+        line-height: 3rem;
+    }
+    .box_images{
+        height: 20rem;
+    }
+    /* Download app */
+    .dl_app_container{
+        padding: 5.5rem 1rem;
+
+    }
+    .dl_app_header{
+        font-size: 2.2rem;
+    }
+    .dl_app_p{
+        padding-bottom: 1rem;
+        line-height: 1.5rem;
+    }
+    .dl_app_container img{
+        height: 3em;
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+
+}
+@media only screen and (max-width: 850px) {
+    #c_caption1, #c_caption3{
+        top:2rem;
+        left: 10%;
+    }
+    #c_caption2{
+        top:2rem;
+        left: 10%;
+    }
+    .carousel-caption h1{
+        font-size: 2rem;
+    }
+
+    #carousel_button{
+        margin-top: 1rem;
+    }
+}
+@media only screen and (max-width: 750px) {
+
+    /* 6 points */
+    .points_flex{
+        gap: 8%;
+    }
+    .point{
+        width:38%;
+    }
+    /* Experience */
+    .experience_container{
+        padding: 2rem 6rem;
+    }
+    .experience_title{
+        padding-top: 2.5rem;
+        font-size: 2.3rem;
+        line-height: 3rem;
+    }
+    .experience_p{
+        font-size: .9rem;
+        margin-top: .7rem;
+        line-height: 1.8rem;
+    }
+    /* Download app */
+    .dl_app_container{
+        padding: 5rem 1rem;
+    }
+    .dl_app_header{
+        font-size: 1.9rem;
+    }
+    .dl_app_p{
+        font-size: .9rem;
+        padding-bottom: .8rem;
+        line-height: 1.3rem;
+    }
+    .dl_app_container img{
+        height: 2.6em;
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    /* Footer */
+    .footer_login{
+        font-size: .9rem;
+    }
+    .about_link a{
+        font-weight: 500;
+        font-size: .8rem;
+        margin-right: 1.8rem;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+
+    /* carousel */
+    .carousel{
+        display: none;
+        margin: 0;
+    }
+    /* top image small */
+    .top_image_sml{
+        visibility: visible;
+        position: static;
+        height: 30rem;
+        margin: 0;
+        background-color: #404040;
+        background-image: url(../images/top_image_sml.png);
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .top_heading{
+        font-size: 1.8rem;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 5rem;
+    }
+    .top__paragraph{
+        color: #ffffff;
+        padding-top: 10rem;
+        text-align: center;
+    }
+    .top_button{
+        width: 100%;
+        text-align: center;
+    }
+    .get_started{
+        padding: .5rem 1rem;
+        background-color: #F2994A;
+        color: #ffffff;
+        font-size: 1rem;
+        border-radius: 2px;
+    }
+
+    /* 6 points */
+    .six_points_container{
+        padding: 4.5rem 1.5rem;
+    }    
+    .points_container{
+        padding: 2rem;    
+    }
+    .points_title{
+        font-size: 1.8rem;    
+    }
+    .points_container h5{
+        font-size: 1rem;
+    }
+    .points_container p{
+        font-size: .9rem;
+    }
+    .points_flex{
+        flex-direction: column;
+        gap: 0;
+    }
+    .point{
+        width:100%;
+        padding: 7rem 8rem 0 8rem;
+        margin-bottom: 2.5rem;
+    }
+    /* Experience */
+    .experience_container{
+        padding: 0;
+    }
+    .box_text{
+        width: 100%;
+        padding: 1rem 3rem 2rem 3rem;
+    }
+    .experience_b{
+        font-size: .8rem;
+    }
+    .box_images{
+        width: 100%;
+        height: 25rem;
+        background-image: url(../images/experience_sml.png);
+        background-repeat: no-repeat;
+        margin-bottom: 2rem;
+    }
+    /* Download app */
+    .dl_app_container{
+        padding: 5rem 5.5rem;
+    }
+    .dl_app_header{
+        font-size: 1.9rem;
+    }
+    .dl_app_p{
+        font-size: .8rem;
+        padding-bottom: .8rem;
+        line-height: 1.3rem;
+    }
+    .dl_app_container img{
+        height: 2.6em;
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    /* Footer */
+    .footer_container{
+        padding: 0 0 .5rem 0;
+    }
+    .footer_top_flex{
+        display: flex;
+        justify-content: center;
+    }
+    .footer_logo{
+        width: 10rem;
+        height: 2.8rem;
+        background-image: url(../images/tradies_logo_bottom_sml.png);
+        margin:1rem 0 .5rem 0;
+    }
+    .footer_login{
+        display: block;
+        float: right;
+        text-align: end;
+        padding-top: 2.3rem;
+    }
+    .footer_border{
+        border-bottom: .3rem solid gray;
+    }
+    .about_container{
+        display: flex;   
+        justify-content: flex-start;
+        padding-left: 1rem;
+    }
+    .about_link{
+        display: flex;
+        flex-direction: column;
+        line-height: 1.8rem;
+        padding: .5rem 0 1rem 1rem;
+    }
+    .social_icon_1 img{
+        width: 2.5rem;
+    }
+    .social_icon_2 img{
+        width: 3rem;
+    }
+    .social_icon_3 img{
+        width: 2.8rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .top_logo{
+        width:10rem;
+        height: 2.7rem;
+        margin: 0;
+        background-image: url(../images/tradies_logo_bottom_sml.png);
+    }
+    /* top image small */
+    .top_image_sml{
+        height: 26.5rem;
+        top: 4rem;
+        padding: 2rem;
+    }
+    .top_heading{
+        font-size: 1.6rem;
+        padding-top: 3rem;
+    }
+    .top__paragraph{
+        padding-top: 10rem;
+        font-size: .9rem;
+    }
+    /* 6 points */
+    .six_points_container{
+        padding: 3rem 1rem;
+    }    
+    .points_title{
+        font-size: 1.7rem;    
+    }  
+    .points_container p{
+        font-size: .8rem;
+    }
+    .points_flex{
+        flex-direction: column;
+        gap: 0;
+    }
+    .point{
+        width:100%;
+        padding: 7rem 5rem 0 5rem;
+        margin-bottom: 2.5rem;
+    }
+    /* Experiences */
+    .experience_title{
+        padding-top: 2rem;
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .experience_p{
+        font-size: .8rem;
+        margin-top: .6rem;
+        line-height: 1.4rem;
+    }
+    .box_text{
+        width: 100%;
+        padding: 1rem 3rem 1rem 3rem;
+    }
+
+    /* Download app */
+    .dl_app_container{
+        padding: 5rem 4rem;
+    }
+    .dl_app_p{
+        font-size: .7rem;
+        padding-bottom: .5rem;
+        line-height: 1rem;
+    }
+    .dl_app_container img{
+        height: 2em;
+        padding-right: .3rem;
+        padding-left: .3rem;
+    }
+
+    #copyright{
+        padding-left: 1.5rem;
+        font-size: .7rem;
+    }
+}
+@media only screen and (max-width: 450px) {
+    /* top image small */
+    .top_image_sml{
+        height: 25rem;
+        padding: 2rem;
+    }
+    .top_heading{
+        font-size: 1.3rem;
+        padding-top: 3rem;
+    }
+    .top__paragraph{
+        padding-top: 8rem;
+        font-size: .8rem;
+    }
+    .get_started{
+        padding: .4rem .9rem;
+        font-size: .9rem;
+    }
+    /* six point */
+    .point{
+        width:100%;
+        padding: 6rem 2rem 0 2rem;
+        margin-bottom: 2.5rem;
+    }
+    /* Experience */
+    .box_text{
+        width: 100%;
+        padding: 0 2rem 1rem 2rem;
+    }
+    .experience_title{
+        padding-top: 2rem;
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
+    .social_link{
+        position: absolute;
+        right: 1.5rem;
+        margin-top: 4rem;  
+    }
+    .box_images{
+        height: 18rem;
+    }
+    /* Download app */
+    .dl_app_container{
+        padding: 4rem 3rem;
+    }
+    /* Footer */ 
+    .footer_login{
+        font-size: .8rem;
+    }
+    .social_link{
+        display: flex;
+        flex-direction: row;
+    }
+    .social_link div{
+        padding-left: .5rem;
+    }
+    .social_icon_1 img{
+        width: 2rem;
+    }
+    .social_icon_2 img{
+        width: 2.5rem;
+    }
+    .social_icon_3 img{
+        width: 2.2rem;
+    }
+}
+@media only screen and (max-width: 360px) {
+    /* top image small */
+    .top_image_sml{
+        height: 26rem;
+        padding: 1rem;
+    }
+    .top_heading{
+        font-size: 1.3rem;
+        padding-top: 10rem;
+    }
+    .top__paragraph{
+        padding-top: 1rem;
+        font-size: .8rem;
+    }
+
+    /* Download app */
+    .dl_app_container{
+        padding: 3.5rem 2rem;
+    }
+    .dl_app_header{
+        font-size: 1.5rem;
+    }
+    .dl_app_p{
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+
+}

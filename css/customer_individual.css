@@ -1,0 +1,696 @@
+.ind_job_container{
+    margin: 0;
+    padding-bottom: 5rem;
+    background-color: #e0e0e0;
+}
+.breadcrumb{
+    margin: 0;
+    padding: 2rem 0 0 3rem;
+    font-size: .8rem;
+    background-color: #e0e0e0;
+}
+/*page-index*/
+.page_container{
+    margin: 2rem 3rem 0 3rem;
+    display: flex;
+    flex-direction: row;
+}
+.page_cat{
+    margin: 0;
+    width: 17%;
+    height: 3rem;
+    padding-top: .8rem;
+    background-color: #f2f2f2;
+    border: 1px solid #e0e0e0;
+    font-style: normal;
+    text-align: center; 
+    font-weight: 500;
+    color: #969696;
+    cursor: pointer;
+    align-self: center;
+}
+.page_cat:hover{
+    background-color: #404040;
+    color: #ffffff;
+}
+#page_current{
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #404040;
+    cursor:none;
+}
+
+/*Inside of page*/
+.page{
+    margin: 0 3rem 1.5rem 3rem;
+    padding: 3rem 5rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+.job_title_wrapper{
+    width: 100%;
+    padding-bottom: 2rem;
+}
+.job_title{
+    font-size: 3rem;
+    color: #F2994A;
+}
+.job_info_wrapper{
+    width: 50%;
+    padding-right: 2rem;
+}
+.job_detail{
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+.job_category_icon{
+    width: 5.8rem;
+    margin: 1rem 0 .5rem 0;
+    padding: .3rem;
+    text-align: center;
+    font-size: 1rem;
+    border: 1px solid #404040;
+    border-radius: 1rem;  
+}
+.instructions{
+    margin: 3rem 1rem 0 0;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+.job_img{
+    width: 50%;
+}
+.job_video{
+    width: 100%;
+}
+.image_selection_container{
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    gap: 3%;
+}
+#arrow{
+    font-size: 4rem;
+    color: #e0e0e0;
+    align-self: center;
+}
+#arrow:hover{
+    color: #969696;
+}
+.img_selector{
+    width: 28%;
+}
+
+
+/* Job Steps */
+.job_steps{
+    margin: 0 3rem 0 3rem;
+    padding:4rem 3rem 3rem 3rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.steps_title{
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #404040;
+    padding-bottom: 4rem;
+}
+.step_img img{
+    width: 100%;
+}
+.step_instruction{
+    padding: 2rem;
+    width: 100%;
+    background-color: #F2994A;
+    display: flex;
+    flex-direction: row;
+    color: #404040;
+}
+.job_inst_images{
+    width: 40%;
+    text-align: center;
+    padding-right:2rem;
+}
+.job_inst_images h5{
+    padding-top: 1rem;
+}
+.triangle_up{
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 40px solid #F2994A;
+    margin-left: 3rem;
+}
+.job_inst_images i{
+    font-size: 4rem;
+    background-color: #ffffff;
+    padding: 1.5rem 1.8rem;
+    border-radius: 50%;
+}
+.job_inst_detail{
+    color: #ffffff;
+    width: 55%
+}
+.job_inst_detail h4{
+    padding-top: 1rem;
+}
+.job_inst_detail p{
+    padding-top: 1rem;
+    color: #404040;
+    line-height: 1.4rem;
+}
+
+/* My Job List */
+.job_list{
+    margin: 0;
+    padding: 6rem 0 6rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.job_list_title{
+    width: 100%;
+    padding-bottom: 2rem;
+    color: #404040;
+    text-align: center;
+}
+.job_list_title h3{
+    font-size: 2.8rem;
+    font-weight: 400;
+}
+
+.list_icon{
+    font-size: 2rem;
+    float: right;
+    padding-right: 5rem;
+}
+.list_icon i{
+ padding-left: 1rem;
+ color: #969696;
+}
+.list_icon i:hover{
+    color: #F2994A;
+}
+
+/* Job List cards */
+
+.job_card_container{
+    width:100%;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    overflow: hidden;
+    gap: 5%;
+}
+.job_list_card{
+    width: 550px;
+    min-width: 400px;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    padding: 2rem 2rem 1rem 2rem;
+}
+.list_info img{
+    width: 100%;
+}
+.list_info h5{
+    font-size: 1.5rem;
+    color: #F2994A;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    line-height: 2rem;
+}
+#done{
+    background-color:rgba(192,192,192,0.4);
+    opacity:0.6;
+}
+.job_no{
+    font-size: .8rem;
+    padding: 0 0 0 .3rem;
+}
+.list_detail{
+    padding-left: .3rem;
+    line-height: 1.5rem;
+}
+.category_icon{
+    width: 6rem;
+    margin: 2rem 0 .5rem 0;
+    padding: .3rem;
+    font-size: 1rem;
+    border: 1px solid #404040;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.jobList_right_btn{
+    visibility: hidden;
+    display: block;
+    position: absolute;
+    right: 3rem;
+    padding-top: 15rem;
+    
+}
+.jobList_right_btn i{
+    font-size: 4rem;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.3);
+    color: #F2994A;
+    background-color: #ffffff;
+    border-radius: 100%;
+}
+.jobList_right_btn i:hover{
+    font-size: 4.2rem;
+    color: #c47229;
+}
+
+
+@media only screen and (max-width: 1450px){
+    .jobList_right_btn{
+        visibility: visible;
+    }
+}
+@media only screen and (max-width: 1150px) {
+    /* individual Job */
+    .page{
+        padding: 3rem 4rem;
+    }
+    .image_selection_container{
+        padding-top: .8rem;
+    }
+    #arrow{
+        font-size: 3rem;
+    }
+    
+    /* Job steps */
+    .triangle_up{
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 30px solid #F2994A;
+        margin-left: 1.5rem;
+    }
+
+}
+@media only screen and (max-width: 980px) {
+    
+    /* individual Job */
+    .page_cat{
+        width: 20%;
+        height: 2.7rem;
+        padding-top: .7rem;
+        font-size: .9rem;
+    }
+    .page{
+        margin: 0 3rem 1.5rem 3rem;
+        padding: 3rem 4rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .job_title{
+        font-size: 2.8rem;
+    }
+    .job_info_wrapper{
+        width: 100%;
+        padding: 0 0 2rem 0;
+    }
+    .job_detail{
+        font-size: 1rem;
+        line-height: 1.7rem;
+    }
+    .job_category_icon{
+        width: 5.6rem;
+        margin: 1rem 0 .5rem 0;
+        padding: .2rem;
+        font-size: 1rem;
+    }
+    .instructions{
+        margin: 2.5rem 0 0 0;
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+    }
+
+    .job_img{
+        width: 100%;
+    }
+    .image_selection_container{
+        padding-top: 1rem;
+    }
+    
+    /* Job steps */
+    .job_steps{
+        margin: 0 3rem;
+        padding: 3rem 2.5rem 2.5rem 2.5rem;
+    }
+    .steps_title{
+        font-size: 2rem;
+        padding-bottom: 2.5rem;
+    }
+    .step_instruction{
+        padding: 1.5rem 2rem;
+    }
+    .job_inst_images{
+        width: 35%;
+        text-align: center;
+        padding-right:2rem;
+    }
+    .job_inst_images h5{
+        padding-top: 1rem;
+    }
+    .triangle_up{
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 30px solid #F2994A;
+        margin-left: 1.5rem;
+    }
+    .job_inst_images i{
+        font-size: 3rem;
+        padding: 1rem 1.3rem;
+        margin-top: 1rem;
+    }
+    .job_inst_detail{
+        width: 65%
+    }
+    .job_inst_images h5{
+        font-size: 1rem;
+    }
+    .job_inst_detail h4{
+        font-size: 1.3rem;
+    }
+    .job_inst_detail p{
+        font-size: .9rem;
+        line-height: 1.2rem;
+    }
+
+    /* My Job LIst */
+    .job_list{
+        padding: 4.5rem 0 4.5rem 0;
+    }
+    .job_list_title h3{
+        font-size: 2.3rem;
+    }
+    .list_icon{
+        float: right;
+        padding-right: 3rem;
+    }
+    .list_icon i{
+        font-size: 1.5rem;
+        padding-left: .8rem;
+    }
+
+    .job_card_container{
+        padding: 0 3.5rem;
+        gap: 3%;
+    }
+    .jobList_right_btn{
+        right: 3rem;
+        padding-top: 15rem;
+        
+    }
+    .jobList_right_btn i{
+        font-size: 3.5rem;
+    }
+    .jobList_right_btn i:hover{
+        font-size: 4rem;
+    }
+
+}
+@media only screen and (max-width: 780px) {
+    /* individual Job */
+    .page_cat{
+        width: 25%;
+        height: 2.5rem;
+        padding-top: .6rem;
+    }
+    .page{
+        margin: 0 3rem 1.5rem 3rem;
+        padding: 3rem 4rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .job_title_wrapper{
+        padding-bottom: 1rem;
+    }
+    .job_title{
+        font-size: 2.5rem;
+    }
+    .instructions{
+        margin: 2rem 0 0 0;
+        font-size: 1rem;
+        line-height: 1.7rem;
+    }
+
+    .image_selection_container{
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: row;
+        width:100%;
+        gap: 2%;
+    }
+    #arrow{
+        font-size: 2.5rem;
+    }
+
+    /* My Job LIst */
+            
+    .job_list{
+        padding: 4rem 0;
+    }
+    .job_list_title{
+        padding-bottom: .5rem;
+    }
+    .job_list_title h3{
+        font-size: 2.2rem;
+    }
+    .list_icon{
+        padding-right: 2rem;
+    }
+    .job_card_container{
+        padding: 0 3rem;
+    }
+    .job_list_card{
+        padding: 2rem 2rem 1rem 2rem;
+    }     
+
+    .list_info h5{
+    font-size: 1.4rem;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    line-height: 2rem;
+    }
+    .job_no{
+        font-size: .8rem;
+        padding: 0;
+    }
+    .list_detail{
+        font-size: .9rem;
+        padding-left: .3rem;
+        line-height: 1.3rem;
+    }
+    .category_icon{
+        width: 5.5rem;
+        margin: 1.5rem 0 .5rem 0;
+        padding: .2rem;
+        font-size: 1rem;
+    }
+
+    .jobList_right_btn{
+        right: 2rem;
+        padding-top: 12rem;
+        
+    }
+    .jobList_right_btn i{
+        font-size: 3rem;
+    }
+    .jobList_right_btn i:hover{
+        font-size: 3.5rem;
+    }   
+}
+@media only screen and (max-width: 650px) {
+    /* individual Job */
+    .page_container{
+        margin: 1.5rem 2rem 0 2rem;
+        display: flex;
+        flex-direction: row;
+    }
+    .breadcrumb{
+        padding: 1.5rem 0 0 2rem;
+        font-size: .8rem;
+        background-color: #e0e0e0;
+    }
+    .page_cat{
+        width: 25%;
+        height: 2.5rem;
+        padding-top:.6rem;
+        font-size: .8rem;
+    }
+    .page{
+        margin: 0 2rem 1.5rem 2rem;
+        padding: 2.5rem 3rem;
+    }
+    .job_title{
+        font-size: 2rem;
+    }
+    .instructions{
+        margin: 1.5rem 0 0 0;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }       
+
+    /* Job steps */
+
+    .job_steps{
+        margin: 0 1.5rem;
+        padding: 2rem;
+    }
+    .steps_title{
+        font-size: 1.7rem;
+        padding-bottom: 1.5rem;
+    }
+    .step_instruction{
+        padding: 1rem 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .job_inst_images{
+        width: 100%;
+        text-align: center;
+        padding-right:0;
+        padding-bottom: 0;
+    }
+    .job_inst_images h5{
+        padding-top: 1rem;
+    }
+    .triangle_up{
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 20px solid #F2994A;
+        margin-left: 1.2rem;
+    }
+    .job_inst_images i{
+        font-size: 3rem;
+        padding: 1rem 1.3rem;
+        margin-top: 1rem;
+    }
+    .job_inst_detail{
+        width: 100%;
+        padding: 1rem 1rem;
+    }
+    .job_inst_detail h4{
+        font-size: 1.3rem;
+        padding: .5rem 0;
+    }
+    .job_inst_detail p{
+        font-size: .9rem;
+        line-height: 1.2rem;
+        padding: 0;
+    }  
+
+}
+@media only screen and (max-width: 480px) {
+    
+    /* individual Job */
+    .page_container{
+        margin: 1rem 1.5rem 0 1.5rem;
+    }
+    .breadcrumb{
+        padding: 1rem 0 0 1.5rem;
+        font-size: .8rem;
+        background-color: #e0e0e0;
+    }
+    .page_cat{
+        width: 25%;
+        height: 3rem;
+        padding: .5rem;
+        font-size: .7rem;
+        line-height: .9rem;
+        vertical-align: middle;
+        
+    }
+    .page{
+        margin: 0 1.5rem 1.5rem 1.5rem;
+        padding: 2rem 1.5rem;
+    }
+    .job_title{
+        font-size: 1.8rem;
+    }
+    .job_detail{
+        font-size: .9rem;
+        line-height: 1.5rem;
+    }
+    .job_category_icon{
+        width: 5.2rem;
+        margin: 0 0 .5rem 0;
+        padding: .2rem;
+        font-size: .9rem;
+    }
+    .instructions{
+        margin: 1.5rem 0 0 0;
+        font-size: .8rem;
+        line-height: 1.3rem;
+    }
+
+    .image_selection_container{
+        padding-top: .5rem;
+    }
+    #arrow{
+        font-size: 2rem;
+    }
+
+    /* Job List cards */
+    .job_list{
+        padding: 3rem 0;
+    }
+    .list_icon i{
+    font-size: 1.2rem;
+    }
+    .job_list_title{
+        padding-bottom: .2rem;
+    }
+    .job_list_title h3{
+        font-size: 1.7rem;
+    }
+    .list_icon{
+        padding-right: 1.5rem;
+    }
+    .job_card_container{
+
+        padding: 0 1.5rem;
+    }
+    .job_list_card{
+        padding: 1.5rem 1.5rem .5rem 1.5rem;
+        min-width: 300px;
+    }     
+
+    .list_detail{
+        font-size: .9rem;
+        padding-left: .3rem;
+        line-height: 1.3rem;
+    }
+    .jobList_right_btn{
+        right: 1.2rem;
+        padding-top: 15rem;
+        
+    }
+    .jobList_right_btn i{
+        font-size: 2.5rem;
+    }
+    .jobList_right_btn i:hover{
+        font-size: 3rem;
+    }   
+
+}

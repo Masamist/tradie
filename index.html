@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap 4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- React -->
+    <script type="application/javascript" src="https://unpkg.com/react@16.0.0/umd/react.production.min.js"></script>
+    <script type="application/javascript" src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js">
+    </script>
+    <script type="application/javascript" src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+
+    <title>Tradies</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://kit.fontawesome.com/99b5199ed8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <nav class="navbar navbar-expand-md navbar-light bg-white">
+            <a class="navbar-brand" href="index.html" alt="Tradies Logo">
+                <div class="top_logo"></div>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" id="top_nav_link" href="#">Are you a Tradie? <i
+                                class="fas fa-hammer"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="top_nav_link" href="#">Register <i class="fas fa-sign-in-alt"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="top_nav_link" href="customer_home.html">Log in <i
+                                class="fas fa-user-circle"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Top carousel -->
+        <section id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/top_images1.png" alt="Get Stared">
+                    <div class="carousel-caption" id="c_caption1">
+                        <h1 class="top_carousel_heading">Quick easy and no hassle<br>
+                            This is the way you find a Tradie</h1>
+                        <p class="top_carousel_paragraph">It is simple, it works so well. Learn how Tradies works.
+                        </p>
+                        <button type="button" class="btn btn-warning" id="carousel_button">Get Started</button>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/top_images2.png" alt="About Tradies">
+                    <div class="carousel-caption" id="c_caption2">
+                        <h1 class="top_carousel_heading">Quick easy and no hassle<br>
+                            This is the way you find a Tradie</h1>
+                        <p class="top_carousel_paragraph">It is simple, it works so well. Learn how Tradies works.
+                        </p>
+                        <button type="button" class="btn btn-warning" id="carousel_button">Get Started</button>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/top_images3.png" alt="New York">
+                    <div class="carousel-caption" id="c_caption3">
+                        <h1 class="top_carousel_heading">Quick easy and no hassle<br>
+                            This is the way you find a Tradie</h1>
+                        <p class="top_carousel_paragraph">It is simple, it works so well. Learn how Tradies works.
+                        </p>
+                        <button type="button" class="btn btn-warning" id="carousel_button">Get Started</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </section>
+        <!-- mobile size top image -->
+        <div class="top_image_sml">
+            <h1 class="top_heading">Quick easy and no hassle<br>
+                This is the way you find a Tradie</h1>
+            <div class="top_img_para_container">
+                <p class="top__paragraph">It is simple, it works so well. Learn how Tradies works.</p>
+                <div class="top_button"><a class="get_started" href="#">Get Started</a></div>
+            </div>
+        </div>
+
+        <!-- Tradies 6 points-->
+        <section class="six_points_container">
+            <div class="points_container">
+                <h1 class="points_title">The best Tradie finder.</h1>
+                <p>We know what customers want.<br>
+                    Trusted Tradies here for you.</p>
+            </div>
+
+
+            <div class="points_flex">
+                <div class="point" id="point1">
+                    <h5>Save time</h5>
+                    <p>Our registered tradie does your job
+                        suiting your schedule and your price.</p>
+                </div>
+                <div class="point" id="point2">
+                    <h5>Professionals</h5>
+                    <p>Our registered tradies are trustworthy
+                        with qualifications and experience.</p>
+                </div>
+                <div class="point" id="point3">
+                    <h5>No surprises</h5>
+                    <p>Price agreed prior to commencing the job,
+                        no surprises on your invoice.</p>
+                </div>
+                <div class="point" id="point4">
+                    <h5>Anytime</h5>
+                    <p>Service available 24/7. List a job anytime,
+                        day night and weekends.</p>
+                </div>
+                <div class="point" id="point5">
+                    <h5>Security</h5>
+                    <p>We are monitoring the site all the time
+                        ensuring your security and safety.</p>
+                </div>
+                <div class="point" id="point6">
+                    <h5>Support</h5>
+                    <p>You can communicate with
+                        our friendly support team anytime online 24/7.</p>
+                </div>
+                <div class="point_button"><a class="learnMore" href="#">Learn More</a></div>
+            </div>
+
+        </section>
+
+        <!-- Experiences -->
+        <section class="experience_container">
+            <div class="box_text">
+                <h2 class="experience_title">Tradies saved me time.<br>
+                    It is so easy to add a job.</h2>
+                <p class="experience_p">“In just a few hours the water leakage
+                    was fixed. Normally it would take us a week to find
+                    a contractor, negotiate the price and book.
+                    We’ve really discovered Tradies is a great tool
+                    to find contractors who are available when we need them
+                    and are reasonably price. We never have a bad experience
+                    with Tradies registered contractors!” </p>
+                <b class="experience_b">Sarah and Tom, Auckland</b>
+            </div>
+            <div class="box_images"></div>
+
+        </section>
+
+        <!-- Download App -->
+        <section class="dl_app_container">
+            <h1 class="dl_app_header">Just download the App and get it done</h1>
+            <p class="dl_app_p">Our great app is available on Apple or Android devices.<br>
+                Just download it now and you can access a tradie anytime.</p>
+            <img src="images/app-store-logo.png" alt="Apple App Store">
+            <img src="images/google-play-badge.png" alt="Google Play Store">
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer_container">
+
+                <div class="footer_top_flex">
+                    <div class="footer_logo_container">
+                        <a href="index.html" alt="Tradies Logo">
+                            <div class="footer_logo"></div>
+                        </a>
+                    </div>
+                    <div class="footer_login">
+                        <div><a href="#">Register</a></div>
+                        <div><a href="customer_home.html">Log in</a></div>
+                    </div>
+                </div>
+                <div class="footer_border"></div>
+
+                <div class="about_container">
+                    <div class="about_link">
+                        <a href="#">About Us</a>
+                        <a href="contact_form.html">Contact Us</a>
+                        <a href="#">Terms</a>
+                        <a href="#">Policy</a>
+                        <a href="#">FAQ</a>
+                    </div>
+                    <div class="social_link">
+                        <div class="social_icon_1"><a href="#"><img src="images/icon_facebook.png"></a></div>
+                        <div class="social_icon_2"><a href="#"><img src="images/icon_twitter.png"></a></div>
+                        <div class="social_icon_3"><a href="#"><img src="images/icon_instagram.png"></a></div>
+                    </div>
+                </div>
+                <div id="copyright"></div>
+
+            </div>
+        </footer>
+    </div>
+
+    <script type="text/babel">
+        class CopyRight extends React.Component {
+            render() {
+                return <p>© 2021 Tradies Limited. All Rights Reserved.</p>
+            }
+        }
+
+        ReactDOM.render(<CopyRight />, document.querySelector('#copyright'))
+    </script>
+</body>
+
+</html>
