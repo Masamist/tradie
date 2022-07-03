@@ -1,2 +1,2 @@
-# tradie
+# tradies
 Tradies Website 
